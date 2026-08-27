@@ -55,9 +55,9 @@ pullEnquiry.addEventListener('pointerup', event => {
 pullEnquiry.addEventListener('click', () => openModal('enquiry'));
 
 const plans = {
-  master: { image: 'assets/aarna-master-plan.jpg', alt: 'Mahendra Aarna master plan', kicker: '9.2 acre community', title: 'A community designed to breathe.', text: 'Six independent towers are set within landscaped grounds, shared amenities and generous open space.' },
-  east: { image: 'assets/floor-plan-3bhk-east.jpg', alt: 'Mahendra Aarna 3 BHK East entry floor plan', kicker: '3 BHK · East entry', title: 'A spacious plan for every day.', text: 'An official Aarna floor-plan board. Request the brochure for complete specifications and availability.' },
-  west: { image: 'assets/floor-plan-3bhk-west.jpg', alt: 'Mahendra Aarna 3 BHK West entry floor plan', kicker: '3 BHK · West entry', title: 'Thoughtfully arranged living.', text: 'An official Aarna floor-plan board. Request the brochure for complete specifications and availability.' }
+  master: { image: 'assets/aarna-master-plan.jpg', alt: 'Mahendra Aarna master plan for apartments in Ananth Nagar Bangalore', kicker: '9.2 acre community', title: 'A community designed to breathe.', text: 'Six independent towers are set within landscaped grounds, shared amenities and generous open space.' },
+  east: { image: 'assets/floor-plan-3bhk-east.jpg', alt: '3 BHK apartment floor plan at Mahendra Aarna in Ananth Nagar', kicker: '3 BHK · East entry', title: 'A spacious plan for every day.', text: 'An official Aarna floor-plan board. Request the brochure for complete specifications and availability.' },
+  west: { image: 'assets/floor-plan-3bhk-west.jpg', alt: '3 BHK apartment floor plan at Mahendra Aarna, Electronic City Phase 2', kicker: '3 BHK · West entry', title: 'Thoughtfully arranged living.', text: 'An official Aarna floor-plan board. Request the brochure for complete specifications and availability.' }
 };
 document.querySelectorAll('.plan-tab').forEach(tab => tab.addEventListener('click', () => {
   const plan = plans[tab.dataset.plan];
